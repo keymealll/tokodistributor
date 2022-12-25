@@ -124,7 +124,7 @@ export const VectorTop = styled.img`
     width: 326px;
     height: 79.68px;
     right: -61.8rem;
-    top: -38.5rem;
+    top: -38.7rem;
 
     @media screen and (min-width:1441px){
         right: -8.8rem;

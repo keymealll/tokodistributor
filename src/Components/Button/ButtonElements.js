@@ -39,6 +39,7 @@ export const GooglePlayButton = styled.a`
     font-family: "Product Sans", Arial, sans-serif;
     font-weight: 600;
     z-index: 1;
+    border-radius: 8px;
 
     &:focus{
     color: #fff;
@@ -80,3 +81,4 @@ export const GooglePlayButton = styled.a`
     font-weight: 400;
   }
 `
+

@@ -30,6 +30,23 @@ export const HoverImg = styled.img`
     right: 0rem;
   `}
 
+  ${props => props.Hover4 && css`
+    left: 1rem;
+    top: -15rem;
+    right: 0rem;
+    transform: rotate(31.54deg);
+    width: 88px;
+    height: 120px;
+  `}
+
+  ${props => props.Hover5 && css`
+    left: 10rem;
+    top: -15rem;
+    right: 0rem;
+    transform: rotate(-66.15deg);
+  `}
+
+
     ${props => props.Hover3 && css`
     left: -14rem;
     bottom: -26rem;
