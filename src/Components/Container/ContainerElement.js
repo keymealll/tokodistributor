@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { MdArrowForwardIos } from 'react-icons/md'
 
 
 export const InfoContainer = styled.div`
@@ -10,6 +9,7 @@ export const InfoContainer = styled.div`
 
     @media screen and (max-width: 768px){
         padding: 100px 0;
+        height: 880px;
     }
 `
 

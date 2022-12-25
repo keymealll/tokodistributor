@@ -23,9 +23,10 @@ export const SocialMedia = styled.section`
 export const SocialMediaWrap = styled.div`
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-self: flex-start;
     max-width: 1100px;
     margin: 40px auto 0 auto;
+
 
     @media screen and (max-width: 820px){
         flex-direction: column;
@@ -38,6 +39,10 @@ export const SocialLogo = styled.img`
     display: flex;
     width: 354.85px;
     margin-bottom: 0.5rem;
+
+    @media screen and (max-width: 400px){
+        width: 300.85px;
+    }
 `
 
 export const WebsiteRights = styled.small`
