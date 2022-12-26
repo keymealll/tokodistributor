@@ -82,3 +82,6 @@ export const GooglePlayButton = styled.a`
   }
 `
 
+export const Whatsapp = styled.div`
+      
+`
